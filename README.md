@@ -1,3 +1,3 @@
 # LeetCode
 
-Exercises from [LeetCode]:leetcode.com
+Exercises from [LeetCode]:https://www.leetcode.com
