@@ -13,13 +13,11 @@ class Solution {
         int middle = left +(right-left)/2;
 
         TreeNode node = new TreeNode(nums[middle]);
-        if(middle - 1 >= left){
-            node.left = addNode(nums,left,middle-1);
-        }
-        if(middle + 1 <= right){
-             node.right = addNode(nums,middle+1,right);
+        
+        node.left = addNode(nums,left,middle-1);
+        node.right = addNode(nums,middle+1,right);
 
-        }
+        
         return node;
 
 
