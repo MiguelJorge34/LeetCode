@@ -12,7 +12,7 @@ class Solution {
                 return mid;
             }
 
-            if(nums[low]<= nums[mid]){ // esta na primeira parte do array
+            if(nums[low]<= nums[mid]){ // a primeira parte do array esta ordenada
 
                 if(target <= nums[mid] && target >= nums[low] ){
                     high = mid - 1;
@@ -21,7 +21,7 @@ class Solution {
                     low = mid+1;
                 }
             }
-            else{// esta na segunda parte do array
+            else{// a segunda parte do array esta ordenada
                 if(target >= nums[mid] && target <= nums[high]){
                     low = mid +1;
                 }
