@@ -4,7 +4,7 @@ public class Solution {
         int sizeB = size(headB);
 
         int diferenceSize = Math.abs(sizeA - sizeB);
-        System.out.println(sizeA +" " + sizeB);
+        
         if(sizeA > sizeB){
             for(int i = 0; i < diferenceSize; i++){
                 headA = headA.next;
